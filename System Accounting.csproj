@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53341506-74BE-4F14-A62C-1251A5A00AFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>System_Accounting</RootNamespace>
+    <AssemblyName>System Accounting</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Accounts\cls_account.cs" />
+    <Compile Include="BL\Bonds\cls_Bonds.cs" />
+    <Compile Include="BL\Journals\cls_Journals.cs" />
+    <Compile Include="BL\Products\cls_Products.cs" />
+    <Compile Include="BL\PointOfSales\cls_order.cs" />
+    <Compile Include="BL\SysFormat\cls_sysFormat.cs" />
+    <Compile Include="BL\Users\Login.cs" />
+    <Compile Include="DAL\ConnectionDatabase.cs" />
+    <Compile Include="PL\Account\frm_accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Account\frm_accounts.Designer.cs">
+      <DependentUpon>frm_accounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Account\frm_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Account\frm_search.Designer.cs">
+      <DependentUpon>frm_search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Bonds\frm_Bounds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Bonds\frm_Bounds.Designer.cs">
+      <DependentUpon>frm_Bounds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_Main.Designer.cs">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Inventory\frm_Categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Inventory\frm_Categories.Designer.cs">
+      <DependentUpon>frm_Categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\PointOfSales\frm_Order_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\PointOfSales\frm_Order_List.Designer.cs">
+      <DependentUpon>frm_Order_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\PointOfSales\frm_Product_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\PointOfSales\frm_Product_List.Designer.cs">
+      <DependentUpon>frm_Product_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\PointOfSales\frm_search_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\PointOfSales\frm_search_customer.Designer.cs">
+      <DependentUpon>frm_search_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Products\frm_Add_Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Products\frm_Add_Products.Designer.cs">
+      <DependentUpon>frm_Add_Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Journals\frm_journals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Journals\frm_journals.Designer.cs">
+      <DependentUpon>frm_journals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Products\frm_Preview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Products\frm_Preview.Designer.cs">
+      <DependentUpon>frm_Preview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Products\frm_Products_manag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Products\frm_Products_manag.Designer.cs">
+      <DependentUpon>frm_Products_manag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\PointOfSales\frm_Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\PointOfSales\frm_Orders.Designer.cs">
+      <DependentUpon>frm_Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\SysFormat\frm_cash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\SysFormat\frm_cash.Designer.cs">
+      <DependentUpon>frm_cash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\SysFormat\frm_Currencies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\SysFormat\frm_Currencies.Designer.cs">
+      <DependentUpon>frm_Currencies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\Account\frm_accounts.resx">
+      <DependentUpon>frm_accounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Account\frm_search.resx">
+      <DependentUpon>frm_search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Bonds\frm_Bounds.resx">
+      <DependentUpon>frm_Bounds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_Main.resx">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Inventory\frm_Categories.resx">
+      <DependentUpon>frm_Categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\PointOfSales\frm_Order_List.resx">
+      <DependentUpon>frm_Order_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\PointOfSales\frm_Product_List.resx">
+      <DependentUpon>frm_Product_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\PointOfSales\frm_search_customer.resx">
+      <DependentUpon>frm_search_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Products\frm_Add_Products.resx">
+      <DependentUpon>frm_Add_Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Journals\frm_journals.resx">
+      <DependentUpon>frm_journals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Products\frm_Preview.resx">
+      <DependentUpon>frm_Preview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Products\frm_Products_manag.resx">
+      <DependentUpon>frm_Products_manag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\PointOfSales\frm_Orders.resx">
+      <DependentUpon>frm_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\SysFormat\frm_cash.resx">
+      <DependentUpon>frm_cash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\SysFormat\frm_Currencies.resx">
+      <DependentUpon>frm_Currencies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BL\Reports\" />
+    <Folder Include="PL\Reports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_img_avaliable.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

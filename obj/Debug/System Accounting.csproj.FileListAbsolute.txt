@@ -1,0 +1,67 @@
+E:\Projects\desktopProjects\System Accounting\System Accounting\bin\Debug\System Accounting.exe.config
+E:\Projects\desktopProjects\System Accounting\System Accounting\bin\Debug\System Accounting.exe
+E:\Projects\desktopProjects\System Accounting\System Accounting\bin\Debug\System Accounting.pdb
+E:\Projects\desktopProjects\System Accounting\System Accounting\obj\Debug\System Accounting.csproj.AssemblyReference.cache
+E:\Projects\desktopProjects\System Accounting\System Accounting\obj\Debug\System Accounting.csproj.SuggestedBindingRedirects.cache
+E:\Projects\desktopProjects\System Accounting\System Accounting\obj\Debug\System_Accounting.PL.frm_Main.resources
+E:\Projects\desktopProjects\System Accounting\System Accounting\obj\Debug\System_Accounting.Properties.Resources.resources
+E:\Projects\desktopProjects\System Accounting\System Accounting\obj\Debug\System Accounting.csproj.GenerateResource.cache
+E:\Projects\desktopProjects\System Accounting\System Accounting\obj\Debug\System Accounting.csproj.CoreCompileInputs.cache
+E:\Projects\desktopProjects\System Accounting\System Accounting\obj\Debug\System Accounting.exe
+E:\Projects\desktopProjects\System Accounting\System Accounting\obj\Debug\System Accounting.pdb
+E:\Projects\desktopProjects\System Accounting\System Accounting\obj\Debug\System_Accounting.PL.frm_Login.resources
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.AssemblyReference.cache
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.frm_Login.resources
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.frm_Main.resources
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\obj\Debug\System_Accounting.Properties.Resources.resources
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.GenerateResource.cache
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.CoreCompileInputs.cache
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\obj\Debug\System Accounting.exe
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\obj\Debug\System Accounting.pdb
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\bin\Debug\System Accounting.exe.config
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\bin\Debug\System Accounting.exe
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\bin\Debug\System Accounting.pdb
+E:\APS.NET\desktop .net\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Account.frm_accounts.resources
+E:\Projects\desktopProjects\System Accounting2\System Accounting\bin\Debug\System Accounting.exe.config
+E:\Projects\desktopProjects\System Accounting2\System Accounting\bin\Debug\System Accounting.exe
+E:\Projects\desktopProjects\System Accounting2\System Accounting\bin\Debug\System Accounting.pdb
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.AssemblyReference.cache
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.SuggestedBindingRedirects.cache
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Account.frm_accounts.resources
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.frm_Login.resources
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.frm_Main.resources
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System_Accounting.Properties.Resources.resources
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.GenerateResource.cache
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.CoreCompileInputs.cache
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System Accounting.exe
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System Accounting.pdb
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.SysFormat.frm_cash.resources
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Account.frm_search.resources
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.SysFormat.frm_Currencies.resources
+E:\Projects\desktopProjects\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Journals.frm_journals.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\bin\Debug\System Accounting.exe.config
+D:\old\Projects\desktop\System Accounting2\System Accounting\bin\Debug\System Accounting.exe
+D:\old\Projects\desktop\System Accounting2\System Accounting\bin\Debug\System Accounting.pdb
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.AssemblyReference.cache
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.SuggestedBindingRedirects.cache
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Account.frm_accounts.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Account.frm_search.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.frm_Login.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.frm_Main.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Journals.frm_journals.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.SysFormat.frm_cash.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.SysFormat.frm_Currencies.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.Properties.Resources.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.GenerateResource.cache
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System Accounting.csproj.CoreCompileInputs.cache
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System Accounting.exe
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System Accounting.pdb
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Bonds.frm_Bounds.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Products.frm_Add_Products.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Products.frm_Products_manag.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Products.frm_Preview.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.Inventory.frm_Categories.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.PointOfSales.frm_Orders.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.PointOfSales.frm_search_customer.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.PointOfSales.frm_Product_List.resources
+D:\old\Projects\desktop\System Accounting2\System Accounting\obj\Debug\System_Accounting.PL.PointOfSales.frm_Order_List.resources
